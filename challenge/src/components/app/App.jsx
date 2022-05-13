@@ -1,24 +1,25 @@
 import './App.css';
 import React from 'react';
 import Header from '../header/header.jsx';
+import Main from '../main/main';
+import { useQuery,gql } from '@apollo/client';
 
+const PEPIT = gql`
+    query{
+        countries{
+		    name
+        }
+    }
+`
 
 function App() {
-  const [stateDark , setStateDark] = React.useState(true);
+  const { loading, error, data } = useQuery(PEPIT);
+
   return (
-    <div>
-      {
-        stateDark 
-        ? 
-        <div className="App">
-          <Header/>
-        </div>
-        : 
-        <div className="App">
-          <h1>Dark</h1>
-        </div>
-      }
-    </div>
+      <div>
+        <Header />
+        <Main/>
+      </div>
   );
 }
 
