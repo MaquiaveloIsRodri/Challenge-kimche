@@ -2,24 +2,16 @@ import './App.css';
 import React from 'react';
 import Header from '../header/header.jsx';
 import Main from '../main/main';
-import { useQuery,gql } from '@apollo/client';
-
-const PEPIT = gql`
-    query{
-        countries{
-		    name
-        }
-    }
-`
+import {StateContext} from '../../context/context.js';
 
 function App() {
-  const { loading, error, data } = useQuery(PEPIT);
-
   return (
+    <StateContext>
       <div>
         <Header />
         <Main/>
       </div>
+    </StateContext>
   );
 }
 

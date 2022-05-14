@@ -1,0 +1,42 @@
+.Conteiner-GroupBy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 3px solid #b4dd7f;
+}
+.GroupBy-tittle{
+    font-size: 2rem;
+    font-family: 'Roboto', monospace;
+    font-weight: 500;
+    color:  #4fc1e9;
+}
+.Container-Specs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+.buttons{
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Roboto', monospace;
+}
+.Specs-Continent{
+    border: 2px solid #b4dd7f;
+    background-color: white;
+    color: #b4dd7f;
+}
+.Specs-Languanje{
+    background-color: #b4dd7f;
+    color: #757575;
+    border:none
+}
+

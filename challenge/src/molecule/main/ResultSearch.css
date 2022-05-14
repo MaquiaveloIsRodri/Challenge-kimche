@@ -1,0 +1,14 @@
+.Container-Result{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,200px));
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.Container-Result-Item{
+    border-radius: 10px;
+    background-color: aquamarine;
+}
