@@ -1,5 +1,5 @@
 import React from "react";
-
+import './error.css'
 const ResultError = () => {
     return (
     <div className="Container-error">

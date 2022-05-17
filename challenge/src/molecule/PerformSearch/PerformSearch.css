@@ -1,0 +1,22 @@
+.Container-Perform{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Perform-tittle{
+    color:#757575;
+    margin-bottom: 30px;
+}
+.Perform-icon{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../../img/Mundo.png);
+    background-size: cover;
+    background-position: center;
+}

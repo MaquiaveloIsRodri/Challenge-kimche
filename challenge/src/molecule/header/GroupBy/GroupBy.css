@@ -26,7 +26,8 @@
     height: 30px;
     width: 130px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 18px;
+    font-weight: 500;
     font-family: 'Roboto', monospace;
 }
 .Specs-Continent{
@@ -39,4 +40,16 @@
     color: #757575;
     border:none
 }
-
+@media (width<=768px){
+    .Conteiner-GroupBy{
+        width: 90%;
+    }
+}
+@media (width<=425px){
+    .GroupBy-tittle{
+        margin-top: 40px;
+    }
+    .buttons{
+        width: 100px;
+    }
+} 

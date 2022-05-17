@@ -1,0 +1,19 @@
+.Container-nodata{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.nodata-tittle{
+    color:#757575
+}
+.nodata-icon{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(../../img/NoEncontrado.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}

@@ -11,3 +11,17 @@
     align-items: center;
     flex-direction: column;
 }
+.Error-tittle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+}
+.Error-icon{
+    background-image: url(../../img/imgError.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
