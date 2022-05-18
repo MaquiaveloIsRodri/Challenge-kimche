@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Challenge-kimche/static/css/main.7baefdd2.css",
+    "main.js": "/Challenge-kimche/static/js/main.913d09f5.js",
+    "static/media/imgError.png": "/Challenge-kimche/static/media/imgError.e610d93f64311e18a64f.png",
+    "static/media/Mundo.png": "/Challenge-kimche/static/media/Mundo.2c55c643efcf43523420.png",
+    "static/media/NoEncontrado.png": "/Challenge-kimche/static/media/NoEncontrado.c589fa9544218a6daa56.png",
+    "static/media/iconAplication.png": "/Challenge-kimche/static/media/iconAplication.27f391aef7835bec645b.png",
+    "index.html": "/Challenge-kimche/index.html",
+    "main.7baefdd2.css.map": "/Challenge-kimche/static/css/main.7baefdd2.css.map",
+    "main.913d09f5.js.map": "/Challenge-kimche/static/js/main.913d09f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7baefdd2.css",
+    "static/js/main.913d09f5.js"
+  ]
+}
